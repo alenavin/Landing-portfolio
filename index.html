@@ -9,207 +9,66 @@
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         
         <title>Alena Vinogradova</title>
-    </head>
+    </head>  
+    
     <body>
-        <div class="container">
-            <header class="header">
-                <img src="img/logo.png" alt=" trillo logo" class="logo">
-
-                <form action="#" class="search">
-                    <input type="text" class="search__input" placeholder="Search hotels">
-                    <button class="search__button">
-                        <svg class="search__icon">
-                            <use xlink:href="img/sprite.svg#icon-search"></use>
-                        </svg>
-                    </button>
-                </form>
-
-                <nav class="user-nav">
-                    <div class="user-nav__icon-box">
-                        <svg class="user-nav__icon">
-                            <use xlink:href="img/sprite.svg#icon-bookmarks"></use>
-                        </svg>
-                        <span class="user-nav__notification">7</span>
-                    </div>
-
-                    <div class="user-nav__icon-box">
-                        <svg class="user-nav__icon">
-                            <use xlink:href="img/sprite.svg#icon-bubbles"></use>
-                        </svg>
-                        <span class="user-nav__notification">13</span>
-                    </div>
-
-                    <div class="user-nav__user">
-                        <img src="img/user.jpg" alt="" class="user-nav__user-photo">
-                        <span class="user-nav__user-name">Jonas</span>
-                    </div>
-                </nav>
-            </header>
 
 
-            <div class="content">
-                <nav class="sidebar">
-                    <ul class="side-nav">
-                        <li class="side-nav__item side-nav__item--active">
-                            <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/sprite.svg#icon-home3"></use>
-                                </svg>
-                                <span>Hotel</span>
-                            </a>
-                        </li>
+        <nav class="nav">
+            <a href="#" class="nav__item">LinkedIn</a>
+            <a href="#" class="nav__item">Connect</a>
+        </nav>
 
-                        <li class="side-nav__item">
-                            <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/sprite.svg#icon-airplane"></use>
-                                </svg>
-                                <span>Flight</span>
-                            </a>
-                        </li>
 
-                        <li class="side-nav__item">
-                            <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/sprite.svg#icon-key"></use>
-                                </svg>
-                                <span>Car rental</span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav__item">
-                            <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/sprite.svg#icon-map2"></use>
-                                </svg>
-                                <span>Tours</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div class="legal">
-                        &copy;2024 by Alena Vinogradova. All rights reserved. 
-                    </div>
-                </nav>
-
-                <main class="hotel-view">
-                    <div class="gallery">
-                        <figure class="gallery__item">
-                            <img src="img/hotel-1.jpg" alt="photo hotel 1" class="gallery__photo">
-                        </figure>
-
-                        <figure class="gallery__item">
-                            <img src="img/hotel-2.jpg" alt="photo hotel 2" class="gallery__photo">
-                        </figure>
-
-                        <figure class="gallery__item">
-                            <img src="img/hotel-3.jpg" alt="photo hotel 3" class="gallery__photo">
-                        </figure>
-                    </div>
-
-                    <div class="overview">
-                        <h1 class="overview__heading">
-                            Hotel las Palmas
-                        </h1>
-                        <div class="overview__stars">
-                            <svg class="overview__icon-star"><use xlink:href="img/sprite.svg#icon-star-full"></use></svg>
-                            <svg class="overview__icon-star"><use xlink:href="img/sprite.svg#icon-star-full"></use></svg>
-                            <svg class="overview__icon-star"><use xlink:href="img/sprite.svg#icon-star-full"></use></svg>
-                            <svg class="overview__icon-star"><use xlink:href="img/sprite.svg#icon-star-full"></use></svg>
-                            <svg class="overview__icon-star"><use xlink:href="img/sprite.svg#icon-star-full"></use></svg>
-                        </div>
-
-                        <div class="overview__location">
-                            <svg class="overview__icon-location"><use xlink:href="img/sprite.svg#icon-location2"></use></svg>
-                            <button class="btn-inline">Albuferia, Portugal</button>
-                        </div>
-
-                        <div class="overview__rating">
-                            <div class="overview__rating-average">8.6</div>
-                            <div class="overview__rating-count">429 votes</div>
-                        </div>
-
-                    </div>
-
-                    <div class="detail">
-                            <div class="description">
-                                <p class="paragraph">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates itaque dolor aperiam quam, fuga sed. At quis dignissimos exercitationem doloremque, ullam quidem, laborum sed harum dolorum eius fugit cumque.
-                                </p>
-                                <p class="paragraph">
-                                    Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
-                                </p>
-                                <ul class="list">
-                                    <li class="list__item">Close to the beach</li>
-                                    <li class="list__item">Breakfast included</li>
-                                    <li class="list__item">Airport shuttle</li>
-                                    <li class="list__item">Free wifi in all rooms</li>
-                                    <li class="list__item">Air conditioning and heating</li>
-                                    <li class="list__item">Pets allowed</li>
-                                    <li class="list__item">We speak all lenguages</li>
-                                    <li class="list__item">Perfect for families</li>
-                                </ul>
-                                <div class="recommend">
-                                    <p class="recommend__count">
-                                        Lucy and 3 other friends recomend this hotel
-                                    </p>
-                                    <div class="recommend__friends">
-                                        <img src="img/user-3.jpg" alt="friend 1" class="recommend__photo">
-                                        <img src="img/user-4.jpg" alt="friend 2" class="recommend__photo">
-                                        <img src="img/user-5.jpg" alt="friend 3" class="recommend__photo">
-                                        <img src="img/user-6.jpg" alt="friend 4" class="recommend__photo">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="user-reviews">
-                               <figure class="review">
-                                    <blockquote class="review__text">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
-                                    </blockquote>
-                                    <figurecaption class="review__user">
-                                        <img src="img/user-1.jpg" alt="User 1" class="review__photo" ></img>
-                                        <div class="review__user-box">
-                                            <p class="review__user-name">Nick Smith</p>
-                                            <p class="review__user-date">Feb 23rd, 2017</p>
-                                
-                                        </div>
-                                        <div class="review__rating">7.8</div>
-                                    </figurecaption>
-                                    
-                               </figure>
-
-                               <figure class="review">
-                                <blockquote class="review__text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
-                                </blockquote>
-                                <figurecaption class="review__user">
-                                    <img src="img/user-2.jpg" alt="User 1" class="review__photo" ></img>
-                                    <div class="review__user-box">
-                                        <p class="review__user-name">Mary Thomas</p>
-                                        <p class="review__user-date">Sept 13th, 2017</p>
-                            
-                                    </div>
-                                    <div class="review__rating">9.1</div>
-                                </figurecaption>
-                                
-                                </figure>
-
-                                <button class="btn-inline">Show all <span>&rarr;</span></button>
-                            </div>
-                    </div>
-                    <div class="cta">
-                        <h2 class="cta__book-now">
-                            Good news! We have 4 rooms for your selected dates!
-                        </h2>
-                        <button class="btn">
-                            <span class="btn__visible">Book now</span>
-                            <span class="btn__invisible">Only 4 rooms left</span>
-                    
-                        </button>
-                    </div>
-
-                </main>
+        <main class="main">
+            <div class="main__big">
+                <p class="main__big-text">Hey,</p>
+                <p class="main__big-text">I'm Alena,</p>
             </div>
+            <div class="main__small">
+                <p class="main__small-text">
+                    — a brand and experience design <br> partner nudging people, teams <br> and brands into greatness.
+                </p>
+            </div>
+        </main>
+
+        <div class="photo">
+            <img src="img/hotel-1.jpg" alt="" class="photo-img">
         </div>
+
+        <div class="description">
+            <p class="description__p">I’ve spent a couple of decades creating brands and digital products and obsessing over what makes them fly. I have a creative studio called The Workshop and invest in early-stage ventures.</p>                <p class="description__p-bold">I partner with visionary founders and design-led capital on the ideas that shape our collective future.</p>
+            <p class="description__p">My work helps companies make strategic decisions in their foundational stages and leverage their position in the market. Over the past two years, I've helped build four startups leading to over $55M in investment.</p>
+        </div>
+
+        <div class="skills">
+            <p class="skills__text">Here’s what you can expect from me...</p>
+        </div>
+
+        <div class="boxes">
+            <div class="boxes-1">I’ll bring years of experience, big energy and fresh thinking.</div>
+            <div class="boxes-2">Listen, challenge and reconnect the dots — joining your team with conviction and openness.</div>
+            <div class="boxes-3">Bridge the gap between creative and commercial objectives — speaking both languages.</div>
+            <div class="boxes-4">Recognise potential — pushing brands to become better than you ever thought possible.</div>                <div class="boxes-5">Giving you the foundations to scale — from world-class design and advisory to building your future team.</div>
+            <div class="boxes-6">Teach teams to move at velocity and have a hell of a lot of fun doing it.</div>
+                
+        </div>
+
+        <div class="cta">
+            <p class="cta__p">I’ve lived and worked all over — Toronto, New York, Miami, Mallorca and London.</p>
+            <p class="cta__p">Ready? Let’s get started.</p>
+            <figure class="cta__signature">Vinogradova</figure>
+        </div>
+
+        <footer class="footer">
+            <p class="footer__name"></p>
+            <div class="footer__list">
+                <a href="#" class="footer__list-item">LinkedIn</a>
+                <a href="#" class="footer__list-item">Twitter/X</a>
+                <a href="#" class="footer__list-item">Telegram</a>
+                <a href="#" class="footer__list-item">Connect</a>
+            </div>
+        </footer>
+            
+
     </body>
-</html>
