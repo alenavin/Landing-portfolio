@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "Hey-alena",
   "version": "1.0.0",
-  "description": "Landing page for trillo app",
+  "description": "Landing page",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -12,7 +12,7 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
-  "author": "Jonas",
+  "author": "Alena",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
