@@ -1,9 +1,9 @@
 .nav {
-    padding: 3rem 6rem 0 0;
+    padding: 2rem 5rem 0 0;
 
     &__item {
         text-decoration: none;
-        padding-right: 4rem;
+        padding-right: 3.5rem;
         color: black;
         font-size: 2.75vh;
     }
@@ -11,10 +11,10 @@
 
 
 .main {
-    padding-top: 10rem;
+    padding-top: 9rem;
     padding-bottom: 16rem;
     &__big {
-        margin-left: 20rem;
+        margin-left: 19rem;
         line-height: 16vh;
         &-text {
             font-size: 15.2vh;
@@ -25,9 +25,9 @@
     }
 
     &__small {
-        margin-left: 55rem;
+        margin-left: 53rem;
         line-height: 9vh;
-        padding-top: 4.25vh;
+        padding-top: 4.2vh;
         &-text {
             font-size: 7vh;
             font-weight: 1000;
@@ -40,18 +40,19 @@
 
     &__img {
         margin: 0 auto;
-        border-radius: 6%;
+        border-radius: 40px;
+        width: 90%;
     }
 }
 
 .description {
-    padding: 22vh 0 10vh 0;
+    padding: 20vh 0 9vh 0;
 
     &__p {
         font-size: 4vh;
         width: 47%;
-        margin-left: 35vw;
-        margin-bottom: 10vh;
+        margin-left: 32vw;
+        margin-bottom: 9vh;
         line-height: 6.8vh;
         
     }
@@ -60,20 +61,20 @@
         font-size: 7vh;
         font-weight: 1000;
         width: 38%;
-        margin-left: 35vw;
-        margin-bottom: 6vh;
+        margin-left: 33vw;
+        margin-bottom: 5.5vh;
         line-height: 9vh;
     }
 }
 
 .skills {
-    padding-bottom: 25vh;
+    padding-bottom: 22vh;
     &__text {
-        font-size: 15.2vh;
+        font-size: 15vh;
         font-weight: 1000;
         width: 60%;
         line-height: 18vh;
-        margin-left: 20rem;
+        margin-left: 18rem;
     }
 }
 
@@ -81,8 +82,8 @@
 
     &__row {
         display: flex;
-        padding-bottom: 4vh;
-        height: 60vh;
+        padding-bottom: 3.6vh;
+        height: 58vh;
         
 
         &-box1{
@@ -91,7 +92,7 @@
             font-size: 5vh;
             font-weight: 1000;
             border-radius: 40px;
-            padding: 5vh 3vw;
+            padding: 4.5vh 2.75vw;
 
             margin: 0 auto 0 8vw;
             
@@ -102,9 +103,8 @@
             font-size: 5vh;
             font-weight: 1000;
             border-radius: 40px;
-            padding: 4vh 2vw;
-
-            margin: 0 10vw 0 auto;
+            padding: 3.6vh 1.8vw;
+            margin: 0 8vw 0 auto;
         }
         &-box3{
             background-color: rgb(243, 154, 142);
@@ -112,9 +112,9 @@
             font-size: 5vh;
             font-weight: 1000;
             border-radius: 40px;
-            padding: 4vh 2vw;
+            padding: 3.6vh 1.8vw;
 
-            margin: 0 auto 0 9vw;
+            margin: 0 auto 0 8.4vw;
 
         }
         &-box4{
@@ -123,7 +123,7 @@
             font-size: 5vh;
             font-weight: 1000;
             border-radius: 40px;
-            padding: 4vh 2vw;
+            padding: 3.6vh 1.8vw;
 
             margin: 0 8vw 0 auto;
         }
@@ -133,7 +133,7 @@
             font-size: 5vh;
             font-weight: 1000;
             border-radius: 40px;
-            padding: 4vh 2vw;
+            padding: 3.6vh 1.8vw;
 
             margin: 0 auto 0 10vw;
         }
@@ -143,7 +143,7 @@
             font-size: 5vh;
             font-weight: 1000;
             border-radius: 40px;
-            padding: 4vh 2vw;
+            padding: 3.6vh 1.8vw;
 
             margin: 0 10vw 0 auto;
         }
@@ -151,28 +151,28 @@
 }
 
 .cta {
-    padding: 22vh 0 16vh 0;
+    padding: 20vh 0 15vh 0;
 
     &__p {
         font-size: 4vh;
         width: 47%;
-        margin-left: 35vw;
-        margin-bottom: 8vh;
-        line-height: 6.8vh;
+        margin-left: 32vw;
+        margin-bottom: 7vh;
+        line-height: 6.6vh;
         
     }
 
     &__signature {
         font-size: 4vh;
         width: 47%;
-        margin-left: 35vw;
-        margin-bottom: 10vh;
+        margin-left: 32vw;
+        margin-bottom: 9vh;
         line-height: 6.8vh;
     }
 }
 
 .footer {
-    padding: 2vh 6vw 6vh 4vw;
+    padding: 1.8vh 5.6vw 5.6vh 3.6vw;
     &__name {
         color: black;
         font-size: 2.75vh;
