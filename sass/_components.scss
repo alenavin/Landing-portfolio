@@ -13,12 +13,35 @@
 .main {
     padding-top: 9rem;
     padding-bottom: 16rem;
+
+    @media only screen and (max-width: 900px) {
+        padding-bottom: 10rem;
+    }
+
     &__big {
         margin-left: 19rem;
         line-height: 16vh;
+
+        @media only screen and (max-width: 900px) {
+            margin-left: 15rem;
+        }
+
+        @media only screen and (max-width: 650px) {
+            margin-left: 5rem;
+            line-height: 14vh;
+
+        }
         &-text {
             font-size: 15.2vh;
             font-weight: 1000;
+
+            @media only screen and (max-width: 900px) {
+                font-size: 13vh;
+            }
+    
+            @media only screen and (max-width: 650px) {
+                font-size: 11vh;
+            }
             
         }
 
@@ -28,20 +51,45 @@
         margin-left: 53rem;
         line-height: 9vh;
         padding-top: 4.2vh;
+
+        
+        @media only screen and (max-width: 900px) {
+            margin-left: 35rem;
+        }
+
+        @media only screen and (max-width: 650px) {
+            margin-left: 15rem;
+            line-height: 8vh;
+        }
+
+
         &-text {
             font-size: 7vh;
             font-weight: 1000;
+
+            @media only screen and (max-width: 900px) {
+                font-size: 6vh;
+            }
+            @media only screen and (max-width: 650px) {
+                font-size: 5vh;
+            }
+
         }
     }
 }
 
 .photo {
-    width: 100vw;
+    width: 100%;
 
     &__img {
         margin: 0 auto;
         border-radius: 40px;
         width: 90%;
+
+        @media only screen and (max-width: 900px) {
+            border-radius: 0;
+            width: 100%;
+        }
     }
 }
 
@@ -51,19 +99,38 @@
     &__p {
         font-size: 4vh;
         width: 47%;
-        margin-left: 32vw;
+        margin-left: 35vw;
         margin-bottom: 9vh;
         line-height: 6.8vh;
-        
+
+        @media only screen and (max-width: 900px) {
+            width: 50%;
+        }
+
+        @media only screen and (max-width: 650px) {
+            width: 60%;
+        }
     }
 
     &__p-bold {
         font-size: 7vh;
         font-weight: 1000;
         width: 38%;
-        margin-left: 33vw;
+        margin-left: 35vw;
         margin-bottom: 5.5vh;
         line-height: 9vh;
+
+
+        @media only screen and (max-width: 900px) {
+            font-size: 6vh;
+            width: 50%;
+        }
+
+        @media only screen and (max-width: 650px) {
+            font-size: 5vh;
+            line-height: 8vh;
+            width: 60%;
+        }
     }
 }
 
@@ -75,6 +142,17 @@
         width: 60%;
         line-height: 18vh;
         margin-left: 18rem;
+
+        @media only screen and (max-width: 900px) {
+            font-size: 13vh;
+            line-height: 16vh;
+        }
+
+        @media only screen and (max-width: 650px) {
+            font-size: 11vh;
+            line-height: 13vh;
+            
+        }
     }
 }
 

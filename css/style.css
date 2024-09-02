@@ -46,42 +46,90 @@ body {
 .main {
   padding-top: 9rem;
   padding-bottom: 16rem; }
+  @media only screen and (max-width: 900px) {
+    .main {
+      padding-bottom: 10rem; } }
   .main__big {
     margin-left: 19rem;
     line-height: 16vh; }
+    @media only screen and (max-width: 900px) {
+      .main__big {
+        margin-left: 15rem; } }
+    @media only screen and (max-width: 650px) {
+      .main__big {
+        margin-left: 5rem;
+        line-height: 14vh; } }
     .main__big-text {
       font-size: 15.2vh;
       font-weight: 1000; }
+      @media only screen and (max-width: 900px) {
+        .main__big-text {
+          font-size: 13vh; } }
+      @media only screen and (max-width: 650px) {
+        .main__big-text {
+          font-size: 11vh; } }
   .main__small {
     margin-left: 53rem;
     line-height: 9vh;
     padding-top: 4.2vh; }
+    @media only screen and (max-width: 900px) {
+      .main__small {
+        margin-left: 35rem; } }
+    @media only screen and (max-width: 650px) {
+      .main__small {
+        margin-left: 15rem;
+        line-height: 8vh; } }
     .main__small-text {
       font-size: 7vh;
       font-weight: 1000; }
+      @media only screen and (max-width: 900px) {
+        .main__small-text {
+          font-size: 6vh; } }
+      @media only screen and (max-width: 650px) {
+        .main__small-text {
+          font-size: 5vh; } }
 
 .photo {
-  width: 100vw; }
+  width: 100%; }
   .photo__img {
     margin: 0 auto;
     border-radius: 40px;
     width: 90%; }
+    @media only screen and (max-width: 900px) {
+      .photo__img {
+        border-radius: 0;
+        width: 100%; } }
 
 .description {
   padding: 20vh 0 9vh 0; }
   .description__p {
     font-size: 4vh;
     width: 47%;
-    margin-left: 32vw;
+    margin-left: 35vw;
     margin-bottom: 9vh;
     line-height: 6.8vh; }
+    @media only screen and (max-width: 900px) {
+      .description__p {
+        width: 50%; } }
+    @media only screen and (max-width: 650px) {
+      .description__p {
+        width: 60%; } }
   .description__p-bold {
     font-size: 7vh;
     font-weight: 1000;
     width: 38%;
-    margin-left: 33vw;
+    margin-left: 35vw;
     margin-bottom: 5.5vh;
     line-height: 9vh; }
+    @media only screen and (max-width: 900px) {
+      .description__p-bold {
+        font-size: 6vh;
+        width: 50%; } }
+    @media only screen and (max-width: 650px) {
+      .description__p-bold {
+        font-size: 5vh;
+        line-height: 8vh;
+        width: 60%; } }
 
 .skills {
   padding-bottom: 22vh; }
@@ -91,6 +139,14 @@ body {
     width: 60%;
     line-height: 18vh;
     margin-left: 18rem; }
+    @media only screen and (max-width: 900px) {
+      .skills__text {
+        font-size: 13vh;
+        line-height: 16vh; } }
+    @media only screen and (max-width: 650px) {
+      .skills__text {
+        font-size: 11vh;
+        line-height: 13vh; } }
 
 .boxes__row {
   display: flex;
